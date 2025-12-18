@@ -16,7 +16,7 @@ const crearMensajePresentacion = (user) => {
 };
 
 // Se llama a la función y se muestra el resultado en consola
-var mensajeDeBienvenida = crearMensajePresentacion(usuario);
+const mensajeDeBienvenida = crearMensajePresentacion(usuario);
 console.log(mensajeDeBienvenida);
 
 
