@@ -14,8 +14,8 @@ const crearMensajePresentacion = (user) => {
   return mensaje;
 }; */
 
-// Arrow function con destructuring en los parámetros
-const crearMensajePresentacion = ({ nombre, edad, ciudad }) => {
+// Arrow function con destructuring en los parámetros ""= {}"" no se rompe si no recive nada.
+const crearMensajePresentacion = ({ nombre, edad, ciudad } = {}) => {
   return `Hola, mi nombre es ${nombre}, tengo ${edad} años y vivo en la ciudad de ${ciudad}.`;
 };
 
