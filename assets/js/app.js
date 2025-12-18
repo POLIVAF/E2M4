@@ -1,4 +1,4 @@
-// Objeto que representa a un usuario
+// codigo refactorizado
 const usuario = {
   nombre: 'Ana',
   edad: 24,
